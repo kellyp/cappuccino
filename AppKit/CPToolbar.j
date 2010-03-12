@@ -499,7 +499,7 @@ var _CPToolbarViewBackgroundColor = nil,
     _CPToolbarViewExtraItemsImage = nil,
     _CPToolbarViewExtraItemsAlternateImage = nil;
 
-var TOOLBAR_TOP_MARGIN          = 5.0,
+var TOOLBAR_TOP_MARGIN          = 0,
     TOOLBAR_ITEM_MARGIN         = 10.0,
     TOOLBAR_EXTRA_ITEMS_WIDTH   = 20.0;
 
@@ -852,7 +852,7 @@ var _CPToolbarItemVisibilityPriorityCompare = function(lhs, rhs)
     return CPOrderedDescending;
 }
 
-var TOP_MARGIN      = 5.0,
+var TOP_MARGIN      = 1.0,//default is 5.0
     LABEL_MARGIN    = 2.0;
 
 @implementation _CPToolbarItemView : CPControl
